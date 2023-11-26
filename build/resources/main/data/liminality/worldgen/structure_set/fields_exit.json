@@ -1,0 +1,21 @@
+{
+  "structures": [
+    {
+      "structure": "liminality:fields_exit",
+      "weight": 70
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 998118176,
+    "frequency": 0.1,
+    "locate_offset": [
+      0,
+      0,
+      0
+    ],
+    "spread_type": "linear",
+    "spacing": 40,
+    "separation": 28
+  }
+}

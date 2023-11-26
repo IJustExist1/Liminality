@@ -1,0 +1,21 @@
+{
+  "item.liminality.diving_helmet": "Diving Helmet",
+  "item.liminality.diving_chestplate": "Diving Chestplate",
+  "item.liminality.diving_leggings": "Diving Leggings",
+  "item.liminality.diving_boots": "Diving Boots",
+  "block.liminality.tile": "Tile Block",
+  "block.liminality.carpet": "Carpet Block",
+  "block.liminality.plaster": "Plaster Block",
+  "block.liminality.baseboard_plaster": "Baseboard Plaster Block",
+  "block.liminality.plaster_stairs": "Plaster Stairs",
+  "block.liminality.ceiling_tile": "Ceiling Tile Block",
+  "block.liminality.fluorescent_light": "Fluorescent Light",
+  "block.liminality.thlassophobia_portal_frame": "Thlassophobia Portal Frame",
+  "block.liminality.fields_portal_frame": "Fields Portal Frame",
+  "block.liminality.glow_orb": "Glow Orb",
+  "block.liminality.dust": "Dust",
+
+  "itemgroup.liminality": "Liminality",
+
+  "tooltip.liminality.fluorescent_light": "When powered will turn on, otherwise will stay on."
+}

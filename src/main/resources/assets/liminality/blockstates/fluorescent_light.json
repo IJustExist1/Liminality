@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "liminality:block/fluorescent_light_lit"
+    },
+    "lit=false": {
+      "model": "liminality:block/fluorescent_light_unlit"
+    }
+  }
+}

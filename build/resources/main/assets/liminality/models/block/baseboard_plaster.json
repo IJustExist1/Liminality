@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "liminality:block/plaster",
+    "side": "liminality:block/baseboard_plaster"
+  }
+}

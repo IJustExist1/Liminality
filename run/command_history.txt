@@ -1,0 +1,50 @@
+/effect clear
+/effect give @s minecraft:night_vision infinite 255 true
+/tp @s 0 319 0
+/execute in minecraft:overworld run tp @s 0 -60 0
+/execute in liminality:thalassophobia run tp @s 0 128 0
+/tp @s 1000 ~ 1000
+/effect give @s minecraft:night_vision infinite 255 true
+/tp @s 0 318 0
+/tp @s 1000 318 1000
+/effect give @s minecraft:night_vision infinite 255 true
+/execute in minecraft:overworld run tp @s 0 -60 0
+/execute in liminality:thalassophobia run tp @s 0 318 0
+/effect give @s minecraft:night_vision infinite 255 true
+/execute in minecraft:overworld run tp @s 0 -60 0
+/execute in liminality:thalassophobia run tp @s 0 256 0
+/effect give @s minecraft:night_vision infinite 255 true
+/effect clear
+/tp @s 1000 ~ 1000
+/effect give @s minecraft:night_vision infinite 255 true
+/effect clear
+/effect give @s minecraft:night_vision infinite 255 true
+/setblock 1157 63 806 air
+/setblock 1155 63 804 air
+/setblock 1154 63 802 air
+/setblock 1154 64 802 air
+/setblock 1154 63 802 customportalapi:customportalblock
+/setblock 1154 64 802 air
+/setblock 1154 63 802 air
+/setblock 1154 63 802 liminality:glow_orb
+/effect ck
+/effect clear
+/execute in minecraft:overworld run tp @s 0 -60 0
+/time set midnight
+/data get entity @e[type=item,sort=nearest,limit=1]
+/data merge entity @e[type=minecraft:item,sort=nearest,limit=1] {tag:{author:"?"}}
+/data merge entity @e[type=minecraft:item,sort=nearest,limit=1] {Item:{tag:{author:"?"}}}
+/give @s liminality:dust
+/execute in liminality:the_fields run tp @s 0 ~ 0
+/locate structure liminality:fields_cabin
+/tp @s 48 ~ -336
+/execute in minecraft:overworld run tp @s 0 -60 0
+/kill @e[type=bat]
+/execute in liminality:the_fields run tp @s 0 ~ 0
+/effect give @s minecraft:night_vision infinite 255 true
+/effect clear
+/locate structure liminality:fields_cabin
+/tp @s -416 ~ 96
+/locate structure liminality:fields_exit
+/tp @s -560 ~ 1312
+/effect give @s minecraft:night_vision infinite 255 true
